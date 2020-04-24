@@ -25,3 +25,5 @@ My email address is jakub.stefko[at]gmail.com
 3. Read about manifest.json and robots.txt and decide do i need to use them in project
 4. Provide css feature-detection for styles that will be written (i home that babel + webpack cares about js stubbing)
 5. Adjust boilerplate to WCAG as much as you could
+6. Theme changer
+7. Language changer
