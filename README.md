@@ -1,17 +1,17 @@
 # Welcome
 
-Hello :)
-It is a boilerplate to use for future projects starting.
-I will try to cover up as much as i can to make it easy to re-adjust.
-If you have some comments or you want to work on it with me just write to me :)
-My email address is jakub.stefko[at]gmail.com
+Hello :)  
+It is a boilerplate to use for future projects starting.  
+I will try to cover up as much as i can to make it easy to re-adjust.  
+If you have some comments or you want to work on it with me just write to me :)  
+My email address is jakub.stefko[at]gmail.com  
 
 # Manual
 
 1. Enter 'yarn install' (if you are using latest node version webpack will throw warnings -> downgrade to i.e. n v8, #webpack2020shaming)
 2. Now you have few possibilities:
 
-   - yarn start - starts the development server (using webpack, no hot module added so you have to refresh after changes - i don't see this as a problem for now)
+   - yarn start - starts the development server (using webpack, no hot module added so you have to refresh after changes - I don't see this as a problem for now, https://github.com/gaearon/react-hot-loader if u need to have it)
    - yarn build - bundles the app into static production build in './dist' directory
 
 # Contributor List
