@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Red Hat Text';
+  src: url('../assets/fonts/RedHatText-Regular.ttf');
+}
+
 :root {
   --primary: aqua;
   --secondary: blue;
@@ -7,7 +12,7 @@
 }
 
 #root, body {
-  font-family: Arial, sans-serif;
+  font-family: 'Red Hat Text', Arial, sans-serif;
   color: var(--font);
   width: 100vw;
   height: 100vh;
