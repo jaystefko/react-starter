@@ -1,5 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import App from './App'
+import App from './components'
+import createStore from './store/createStore'
 
-ReactDOM.render(<App />, document.getElementById('root'))
+import './styles/normalize.css'
+import './styles/style.css'
+
+const store = createStore(window.__INITIAL_STATE__)
+
+window.store = store
+
+ReactDOM.render(<App store={store} />, document.getElementById('root'))

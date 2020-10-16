@@ -1,6 +1,6 @@
 {
   "name": "react-starter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Boilerplate to start your react project",
   "main": "index.js",
   "repository": "git@github.com:JakubStefko/react-starter.git",
@@ -29,6 +29,7 @@
     "react-dom": "^16.13.1",
     "react-redux": "^7.2.0",
     "react-router-dom": "^5.1.2",
+    "react-toastify": "^6.0.9",
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0"
   }
