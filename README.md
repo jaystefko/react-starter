@@ -20,10 +20,11 @@ My email address is jakub.stefko[at]gmail.com
 
 # TODO
 
-1. Build core project body using installed libraries
-2. Add some testing library with manual 4 usage (jest?) + script for testing in package.json
+1. Build core project body using installed libraries [WIP]
+2. Add some testing library with manual 4 usage (jest?) + script for testing in package.json 
 3. Read about manifest.json and robots.txt and decide do i need to use them in project
-4. Provide css feature-detection for styles that will be written (i home that babel + webpack cares about js stubbing)
+4. Provide css feature-detection for styles that will be written (i hope that babel + webpack cares about js stubbing)
 5. Adjust boilerplate to WCAG as much as you could
 6. Theme changer
 7. Language changer
+8. Set developement start from make (env variables and everything so that you don't have to mess with js to run this piece of crap) [WIP]
