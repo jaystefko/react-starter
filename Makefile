@@ -1,5 +1,5 @@
 start:
-	yart start
+	yarn start
 build:
 	yarn build
 test:
