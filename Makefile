@@ -1,3 +1,5 @@
+install:
+	yarn install
 start:
 	yarn start
 build:

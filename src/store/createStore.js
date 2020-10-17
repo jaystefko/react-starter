@@ -11,7 +11,8 @@ function createStore() {
   const enhancers = []
   let composeEnhancers = compose
   
-  console.log('process.env: ', process)
+  // leaving it until process env will be settled
+  // console.log('process.env: ', process.env)
 
   if (process.env.NODE_ENV === 'development') {
     if (typeof window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ === 'function') {

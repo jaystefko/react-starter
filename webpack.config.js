@@ -1,13 +1,23 @@
 const path = require('path')
 const webpack = require('webpack')
+const dotenv = require('dotenv')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 const HtmlWebPackPlugin = require("html-webpack-plugin")
 
-module.exports = env => {
-  // console.warn('API: ', env.api)
+module.exports = function () {
+  const env = dotenv.config().parsed
+  const envKeys = Object.keys(env).reduce((prev, next) => {
+    prev[`process.env.${next}`] = JSON.stringify(env[next])
+    return prev
+  }, {})
+
+  console.warn('API: ', envKeys)
 
   return {
     entry: './src/index.js',
+    node: {
+      fs: 'empty' // workaround because of webpack dotenv fight - https://github.com/webpack-contrib/css-loader/issues/447
+    },
     module: {
       rules: [
         {
@@ -50,13 +60,13 @@ module.exports = env => {
         template: './public/index.html',
       }),
 
-      // #TODO - passing env.api from here to bundle so it can i.e. send different api calls
-      // depends on dev/prod mode (I couldn't do it with official docs)
-      // new webpack.EnvironmentPlugin({
-      //   NODE_ENV: 'development', // use 'development' unless process.env.NODE_ENV is defined
-      //   DEBUG: false,
-      //   API: env.api
-      // })
+      // below line does not work and i don't know exacly why
+      // envKeys looks like this:
+      // {
+      //   'process.env.NODE_ENV': '"production"',
+      //   'process.env.API': '"http://localhost:8001"' -> future address of BE which i want to change between dev and production builds
+      // }
+      new webpack.DefinePlugin(envKeys)
     ],
   }
 }
