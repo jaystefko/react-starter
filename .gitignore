@@ -5,3 +5,7 @@ dist
 yarn.lock
 
 .env
+
+.yarn*
+
+package.lock.json
