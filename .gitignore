@@ -9,3 +9,7 @@ yarn.lock
 .yarn*
 
 package.lock.json
+
+.pnp.js
+
+.vscode

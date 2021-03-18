@@ -1,22 +1,22 @@
 import { SET_TOKEN, SET_USER } from '../actions'
 // import axios from 'axios'
-import { httpErrorHandler } from '../../common/handlers'
+import { httpErrorHandler } from '../../utils/handlers'
 
-function setTokenAction (token = '') {
+function setTokenAction(token = '') {
   return {
     type: SET_TOKEN,
     data: token,
   }
 }
 
-function setUserAction (user = null) {
+function setUserAction(user = null) {
   return {
     type: SET_USER,
     data: user,
   }
 }
 
-export function signIn (email = '', password = '') {
+export function signIn(email = '', password = '') {
   return async function (dispatch) {
     try {
       // here call api
@@ -31,7 +31,7 @@ export function signIn (email = '', password = '') {
   }
 }
 
-export function signUp (name = '', email = '', password = '') {
+export function signUp(name = '', email = '', password = '') {
   return async function (dispatch) {
     try {
       // here call api
