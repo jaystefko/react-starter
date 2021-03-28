@@ -34,13 +34,13 @@ Inside that directory, you can run several commands:
   - _Removes this tool and copies build dependencies, configuration files  
     and scripts into the app directory. If you do this, you can’t go back!_
 
-## Project structure
+## Project structure (WIP)
 
 - **public** ~ _files in this folder will be packed directly to the server, not preprocessed by any packager_
   - **index.html** ~ _one and only html file_
   - **manifest.json** ~ _file describing your app when installed on desktop or mobile as shortcut to web page (tldr: https://web.dev/progressive-web-apps/)_
   - **robots.txt** ~ _file describing availability of your site to bots like google search etc (pure SEO purposes, tldr: https://www.robotstxt.org/robotstxt.html)_
-  - **icons** ~ _folder with icons for each device. why so many of them and why those specific sizes? -> _
+  - **icons** ~ _folder with icons for each device._
 
 ## Thanks to
 
