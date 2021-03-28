@@ -11,10 +11,6 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
     publicPath: '/',
-    library: {
-      type: 'umd',
-      name: 'react-starter',
-    },
   },
   performance: {
     hints: 'warning',
@@ -27,7 +23,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.m?js$/,
+        test: /\.js$/,
         exclude: /node_modules/,
         use: {
           loader: 'babel-loader',
