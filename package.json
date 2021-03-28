@@ -1,6 +1,6 @@
 {
   "name": "react-starter",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Boilerplate to start your react project",
   "main": "src/index.js",
   "repository": "git@github.com:JakubStefko/react-starter.git",
