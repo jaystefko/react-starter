@@ -1,4 +1,4 @@
-# React starter
+# fireact 🔥🎭
 
 ## Introduction
 
@@ -10,6 +10,7 @@ This repository contains code for safely starting with react in 2021.
 1. install nodejs (https://nodejs.org/en/download/) ~  
    _I am currently working on version 14.16, cannot assure that all node versions will work same_
 1. Type in the console: `npm install -g yarn`
+1. Type in the console: `yarn set version berry`
 1. Type in the console:  
    `git clone git@github.com:JakubStefko/fireact.git`
 1. Type in the console: `cd fireact`
@@ -45,15 +46,9 @@ Inside that directory, you can run several commands:
 ## Thanks to
 
 - My thesis supervisor for mentoring me in master's degree process
+- [Freepik](https://www.freepik.com) from [Flaticon](https://www.flaticon.com/) for making fire icon
 - Everyone who let me know about some issue or possible weakness in project
 
-# Contributor List
+## TODO list
 
-1. Jakub Stefko
-
-# TODO
-
-1. Adding typescript
-1. Adjust boilerplate to WCAG
-1. Theme changer
-1. Language changer
+- typescript version

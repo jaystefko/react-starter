@@ -1,15 +1,5 @@
 node_modules
-
 dist
-
 yarn.lock
-
-.env
-
-.yarn*
-
 package.lock.json
-
-.pnp.js
-
 .vscode

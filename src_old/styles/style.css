@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'Red Hat Text';
+  src: url('./fonts/RedHatText-Regular.ttf');
+}
+
+:root {
+  --first: #ff421d;
+  --second: #ff6536;
+  --third: #ffa900;
+  --fourth: #fbbf00;
+  --background: #222222;
+}
+
+#root,
+body {
+  font-family: 'Red Hat Text', Arial, sans-serif;
+  color: var(--fourth);
+  width: 100vw;
+  height: 100vh;
+  font-size: 1em;
+}
+
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--first);
+}
+
+a {
+  color: var(--third);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--second);
+}
