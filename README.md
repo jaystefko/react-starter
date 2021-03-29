@@ -15,24 +15,16 @@ This repository contains code for safely starting with react in 2021.
 1. Type in the console: `cd fireact`
 
 ## Usage
-
 Inside that directory, you can run several commands:
 
 - **yarn start**
-
   - _Starts the development server._
 
 - **yarn build**
-
   - _Bundles the app into static files for production._
 
 - **yarn test**
-
   - _Starts the test runner._
-
-- **yarn eject**
-  - _Removes this tool and copies build dependencies, configuration files  
-    and scripts into the app directory. If you do this, you can’t go back!_
 
 ## Project structure (WIP)
 
