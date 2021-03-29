@@ -9,7 +9,7 @@
   "scripts": {
     "start": "webpack serve --config webpack.dev.js --progress",
     "build": "webpack --config webpack.prod.js --progress",
-    "test": "nyc jest"
+    "test": "jest --coverage"
   },
   "dependencies": {
     "react": "^17.0.2",
