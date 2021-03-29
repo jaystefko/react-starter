@@ -5,3 +5,4 @@ package.lock.json
 .vscode
 old
 tests/__snapshots__
+.nyc*
