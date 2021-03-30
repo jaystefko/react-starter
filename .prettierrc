@@ -4,5 +4,6 @@
   "parser": "babel",
   "printWidth": 120,
   "semi": false,
-  "singleQuote": true
+  "singleQuote": true,
+  "tabWidth": 2
 }
