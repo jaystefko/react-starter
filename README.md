@@ -36,6 +36,9 @@ Inside that directory, you can run several commands:
   - **manifest.json** ~ _file describing your app when installed on desktop or mobile as shortcut to web page (tldr: https://web.dev/progressive-web-apps/)_
   - **robots.txt** ~ _file describing availability of your site to bots like google search etc (pure SEO purposes, tldr: https://www.robotstxt.org/robotstxt.html)_
   - **icons** ~ _folder with icons for each device._
+- **src** ~ _main content folder_
+- **tests** ~ _all tests, structure 1:1 as in src w-out styles_
+
 
 ## Contribution
 
